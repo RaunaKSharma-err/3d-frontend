@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "playground",
     "store",
     "tags",
+    "Like",
 ]
 
 MIDDLEWARE = [
@@ -76,8 +77,11 @@ WSGI_APPLICATION = "firstStore.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "firststore",
+        "HOST": "localhost",
+        "USER": "root",
+        "PASSWORD": "ritik1228",
     }
 }
 
