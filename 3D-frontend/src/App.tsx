@@ -1,4 +1,4 @@
-import Home from "./components/model";
+import Robot_model from "./components/Robot_model";
 import { Button } from "./components/ui/button";
 import "./App.css";
 function App() {
@@ -27,7 +27,7 @@ function App() {
             Signup
           </Button>
         </div>
-        <Home />
+        <Robot_model />
       </div>
     </>
   );
