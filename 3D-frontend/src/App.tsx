@@ -19,10 +19,14 @@ function App() {
         className={`h-[100vh] w-[100%] bg-black flex justify-center items-center transition-all duration-3000 ease-in-out ${paddingClass}`}
       >
         <div className="h-[100%] relative flex justify-center items-center bg-[#ebebeb] rounded-2xl">
+          <Navbar />
           <div className="absolute flex top-[30%] ml-24 text-8xl text-gray-300 z-0 tracking-[60px] text-shadow-2xs font-bold orbitron-text">
             FUTURISTIC
           </div>
-          <Navbar />
+          <div className="absolute flex top-[50%] ml-16 text-3xl text-gray-300 z-0 tracking-[15px] text-shadow-2xs font-bold orbitron-text">
+            Redefining Intelligence with Design
+          </div>
+
           <Robot_model />
         </div>
       </div>
