@@ -2,6 +2,7 @@ import Robot_model from "./components/Robot_model";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { useEffect, useState } from "react";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   const [paddingClass, setPaddingClass] = useState("p-10");
@@ -26,7 +27,7 @@ function App() {
           <div className="absolute flex top-[50%] ml-16 text-3xl text-gray-300 z-0 tracking-[15px] text-shadow-2xs font-bold orbitron-text">
             Redefining Intelligence with Design
           </div>
-
+          <HeroSection/>
           <Robot_model />
         </div>
       </div>

@@ -12,29 +12,31 @@ const Navbar = () => {
             alt="Logo"
             className="h-20 mt-10 animate-slide-from-top z-10"
           />
-          <p className="orbitron-text text-2xl text-gray-800 tracking-widest">Shaping the Future</p>
+          <p className="orbitron-text font-bold text-2xl text-gray-700 tracking-widest">
+            Shaping the Future
+          </p>
         </div>
         <div className="text-sm gap-12 ml-2 flex font-bold animate-slide-from-top text-white z-50">
-          <Button className="hover:text-gray-800 hover:bg-[#ebebeb] z-50 cursor-pointer bg-black border-2 text-[#ebebeb] rounded-full">
+          <Button className="hover:text-gray-800 hover:bg-[#ebebeb] orbitron-text z-50 cursor-pointer bg-black border-2 text-[#ebebeb] rounded-full">
             Home
           </Button>
 
-          <Button className="hover:text-gray-800 hover:bg-[#ebebeb] z-50 cursor-pointer bg-black border-2 text-[#ebebeb] rounded-full">
+          <Button className="hover:text-gray-800 hover:bg-[#ebebeb] orbitron-text z-50 cursor-pointer bg-black border-2 text-[#ebebeb] rounded-full">
             Contact
           </Button>
-          <Button className="hover:text-gray-800 hover:bg-[#ebebeb] z-50 cursor-pointer bg-black border-2 text-[#ebebeb] rounded-full">
+          <Button className="hover:text-gray-800 hover:bg-[#ebebeb] orbitron-text z-50 cursor-pointer bg-black border-2 text-[#ebebeb] rounded-full">
             FAQs
           </Button>
         </div>
         <div className="flex justify-between items-center w-[400px]">
           <div className="z-50 flex justify-center items-center gap-2">
             <Input
-              className="border-gray-800 border-2 rounded-full bg-[#ebebeb] text-gray-800 font-bold"
+              className="border-gray-800 border-2 rounded-full bg-[#ebebeb] text-gray-800 font-bold orbitron-text"
               placeholder="Search..."
             />
             <Search size={30} color="black" className="cursor-pointer" />
           </div>
-          <Button className="h-10 font-bold rounded-4xl cursor-pointer z-50 animate-slide-from-top bg-[#ebebeb] border-2 text-gray-800 hover:text-[#ebebeb]">
+          <Button className="h-12 font-bold orbitron-text rounded-4xl cursor-pointer z-50 animate-slide-from-top bg-[#ebebeb] border-2 text-gray-800 hover:text-[#ebebeb]">
             Signup
           </Button>
         </div>
