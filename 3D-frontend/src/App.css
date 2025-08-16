@@ -1,5 +1,22 @@
-.lavishly-yours-regular {
-  font-family: "Lavishly Yours", cursive;
-  font-weight: 400;
+.orbitron-text {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
   font-style: normal;
+}
+@keyframes slide-from-top {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-15%);
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  .animate-slide-from-top {
+    animation: slide-from-top 1s ease-out forwards;
+  }
 }
