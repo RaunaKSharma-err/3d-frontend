@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+
 const HeroSection = () => {
   const [overlap, setoverlap] = useState("z-40");
   useEffect(() => {
@@ -28,7 +30,7 @@ const HeroSection = () => {
             “where intelligence meets imagination”
           </p>
         </div>
-        <Button className="hover:bg-gray-800 hover:text-[#ebebeb] bg-[#ebebeb] mt-3 font-bold w-[90%] border-2 border-gray-700 text-gray-700 rounded-full orbitron-text z-50 cursor-pointer">
+        <Button className="hover:bg-gray-800 hover:text-[#ebebeb] bg-[#ebebeb] mt-2 font-bold w-[90%] border-2 border-gray-700 text-gray-700 rounded-full orbitron-text z-50 cursor-pointer">
           Explore
           <ArrowRight
             size={30}
@@ -36,10 +38,13 @@ const HeroSection = () => {
           />
         </Button>
       </div>
-      <div className="absolute bottom-0 right-0 w-[400px] h-50 flex justify-center items-center rounded-4xl">
-        <Button className="hover:bg-gray-800 hover:text-[#ebebeb] bg-[#ebebeb] border-4 border-gray-800 font-bold cursor-pointer ${} text-2xl text-gray-800 orbitron-text w-70 h-24 ">
-          Pre-order Now
-        </Button>
+      <div className="absolute bottom-0 right-0 flex w-[450px] rounded-4xl object-cover rgba(255, 255, 255, 0.05)">
+        <DotLottieReact
+          src="https://lottie.host/4dbf65b8-04f7-492a-8bd5-baf2e0d243cb/JKe5ZydZfx.lottie"
+          className="h-[300px] object-cover"
+          loop
+          autoplay
+        />
       </div>
     </>
   );

@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <div
-        className={`h-[100vh] w-[100%] bg-black flex justify-center items-center transition-all duration-3000 ease-in-out ${paddingClass}`}
+        className={`h-[100vh] w-[100%] bg-[#000000] flex justify-center items-center transition-all duration-3000 ease-in-out ${paddingClass}`}
       >
         <div className="h-[100%] relative flex justify-center items-center bg-[#ebebeb] rounded-2xl">
           <Navbar />
@@ -27,7 +27,7 @@ function App() {
           <div className="absolute flex top-[50%] ml-16 text-3xl text-gray-300 z-0 tracking-[15px] text-shadow-2xs font-bold orbitron-text">
             Redefining Intelligence with Design
           </div>
-          <HeroSection/>
+          <HeroSection />
           <Robot_model />
         </div>
       </div>
