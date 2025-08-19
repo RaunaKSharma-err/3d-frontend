@@ -41,7 +41,7 @@ const HeroSection = () => {
       <div className="absolute bottom-0 right-0 flex w-[450px] rounded-4xl object-cover backdrop-blur-md rgba(255, 255, 255, 0.05)">
         <DotLottieReact
           src="https://lottie.host/4dbf65b8-04f7-492a-8bd5-baf2e0d243cb/JKe5ZydZfx.lottie"
-          className="h-[300px] object-cover"
+          className="h-[280px] object-cover"
           loop
           autoplay
         />
